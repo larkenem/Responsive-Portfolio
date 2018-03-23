@@ -57,10 +57,8 @@ body {
   /* header */
   
   #masthead {
-    position: fixed;
-    z-index: 99;
+    position: static;
     width: 100%;
-    margin: 0 0 30px;
     overflow: auto;
     color: #fff;
     background: #fff;
@@ -228,3 +226,43 @@ body {
     background: rgb(114, 81, 95);
     border: 0 none;
   }
+  
+@media screen and (max-width: 980px) {
+
+.wrapper {
+    width: 100%;
+    padding: 20px;
+}
+
+.main-section {
+    width: 65%;
+}
+.side-box {
+    width: 30%;
+}
+}
+
+@media screen and (max-width: 768px) {
+
+.wrapper {
+    width: 100%;
+    padding: 20px;
+}
+
+.main-section, 
+.side-box {
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 640px) {
+
+.wrapper {
+    width: 100%;
+    padding: 20px;
+}
+.main-section, 
+.side-box {
+    width: 100%;
+}
+}
