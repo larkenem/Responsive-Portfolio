@@ -235,10 +235,17 @@ body {
 }
 
 .main-section {
-    width: 65%;
+    width: 40%;
+    margin-left: 10%;
 }
+
+.work {
+    width: 100%;
+}
+
 .side-box {
-    width: 30%;
+    width: 40%;
+    margin-right: 10%
 }
 }
 
@@ -249,20 +256,37 @@ body {
     padding: 20px;
 }
 
-.main-section, 
+.main-section {
+    width: 80%;
+    margin-top: -15%;
+}
+
+.work {
+    width: 45%;
+}
+
 .side-box {
-    width: 100%;
+    width: 80%;
 }
 }
 
 @media screen and (max-width: 640px) {
 
 .wrapper {
-    width: 100%;
+    width: 100%; 
     padding: 20px;
 }
-.main-section, 
+
+.main-section {
+    width: 80%;
+    margin-top: -15%;
+}
+
 .side-box {
+    width: 80%;
+}
+
+.work {
     width: 100%;
 }
 }
